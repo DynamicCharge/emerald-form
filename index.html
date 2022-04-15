@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Emerald - form</title>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+<script defer="defer" src="./assets/scripts/main.js"></script><link href="./assets/styles/main..css" rel="stylesheet"></head>
+<body>
+    <main>
+        <section class="reserve">
+            <div class="container">
+                <form action="" class="reserve-form">
+                    <div class="reserve-form__text-wrap">
+                        <h2 class="reserve-form__header">Резерв банкетного зала</h2>
+                        <p class="reserve-form__desc">
+                            Пожалуйста заполните форму заявки и мы свяжемся с Вами как можно быстрее,  чтобы обсудить Ваше событие!
+                        </p>
+                    </div>
+                    <input type="text" class="reserve-form__input" placeholder="E-mail*" required>
+                    <input type="text" class="reserve-form__input" placeholder="Имя*" required>
+                    <input type="text" class="reserve-form__input" placeholder="Фамилия">
+                    <input type="text" class="reserve-form__input" name="phone" placeholder="Телефон*" required>
+                    <input type="text" class="reserve-form__input" name="date" placeholder="Дата события*" required>
+                    <input type="text" class="reserve-form__input" placeholder="Количество гостей">
+                    <textarea name="" id="" cols="30" rows="4" class="reserve-form__input" placeholder="Комментарий"></textarea>
+                    <label class="reserve-form__label">
+                        <input type="checkbox" class="reserve-form__check" required>
+                        <div class="reserve-form__custom-check">
+                            <img src="assets/img/checkbox..svg" alt="">
+                        </div>
+                        Нажимая кнопку «Отправить», я даю свое согласие на обработку моих персональных данных, в соответствии с  ФЗ от 27.07.2006 года №152-ФЗ «О персональных данных», на условиях и для целей, определяемых в <a href="">Согласии</a>  на обработку персональных данных.
+                    </label>
+                    <button class="reserve-form__submit" type="submit">Отправить</button>
+                </form>
+            </div>
+        </section>
+
+        <div class="reserve-success">
+            <span>Зал успешно забронирован!</span>
+        </div>
+    </main>
+</body>
+</html>
